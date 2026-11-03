@@ -1,5 +1,6 @@
 data/state.json
 data/state.json.tmp
+data/github-cache.json
 .cellumo-worker.json
 .env
 agents/*/.cellumo-worker.json

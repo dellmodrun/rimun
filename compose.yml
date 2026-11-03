@@ -1,13 +1,13 @@
 services:
-  cellumo:
+  rimun:
     build: .
     restart: unless-stopped
     ports:
       - "127.0.0.1:4210:4210"
     environment:
-      CELLUMO_ADMIN_TOKEN: ${CELLUMO_ADMIN_TOKEN:?set CELLUMO_ADMIN_TOKEN}
-      CELLUMO_REGISTRATION_KEY: ${CELLUMO_REGISTRATION_KEY:?set CELLUMO_REGISTRATION_KEY}
+      RIMUN_ADMIN_TOKEN: ${RIMUN_ADMIN_TOKEN:?set RIMUN_ADMIN_TOKEN}
+      RIMUN_REGISTRATION_KEY: ${RIMUN_REGISTRATION_KEY:?set RIMUN_REGISTRATION_KEY}
     volumes:
-      - cellumo-data:/app/data
+      - rimun-data:/app/data
 volumes:
-  cellumo-data:
+  rimun-data:
