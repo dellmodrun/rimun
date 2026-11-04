@@ -2,7 +2,7 @@
   const cards=document.querySelectorAll('.treasury-grid article');
   const values=[
     ['settlement program','TBA','not deployed'],
-    ['$rimunrun contract','TBA','not launched'],
+    ['$rimunrun contract','9A3u…pump','9A3ujUXDPaGT4BeWBUSYkeU4sR4depX1M7WVb4ecpump'],
     ['parasite bond','TBA','parameter not published'],
     ['verifier quorum','2×','independent repair replay']
   ];
