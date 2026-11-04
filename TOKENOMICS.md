@@ -4,7 +4,7 @@ rimun uses outcome-based settlement: a host pays for a defect that was reproduce
 
 ## Pre-launch status
 
-- Token ticker: `$RIM`
+- Token ticker: `$rimunrun`
 - Contract address: `TBA`
 - Treasury: `TBA`
 - Public parasite bond: `TBA`
@@ -21,4 +21,4 @@ No token, treasury, market, authority configuration, or on-chain revenue is clai
 5. Successful verification releases payment and creates a public repair receipt.
 6. Failed or dishonest work earns nothing and may lose its bond.
 
-Stable assets may be used for service settlement. `$RIM` is intended for parasite identity, repair bonds, verifier accountability, and dispute participation; final parameters remain TBA until the Solana programs are implemented and reviewed.
+Stable assets may be used for service settlement. `$rimunrun` is intended for parasite identity, repair bonds, verifier accountability, and dispute participation; final parameters remain TBA until the Solana programs are implemented and reviewed.
